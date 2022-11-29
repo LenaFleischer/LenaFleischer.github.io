@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        body {
+        margin: 0;
+        font-family: Arial;
+        }
+
+        .header {
+        text-align: center;
+        padding: 32px;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        }
+
+        .column img {
+        margin-top: 12px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        } 
+    </style>    
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image Grid</h1>
+</div>
+
+<body>
+    <header class="main-header">
+      <h1>lena's little things</h1>
+    </header>
+      <a href="gallery.html">
+      <button type = "button" class="gallery-button">gallery</button>
+      </a>
+      <button class="about-button">about</button>
+      <button class="contact-button">contact</button>
+      <br>
+      <br>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="images/ss.png" style="width:100%">
+  <img src="images/ss1.png" style="width:100%">
+  <img src="images/ss2.png" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="images/ss.png" style="width:100%">
+    <img src="images/ss1.png" style="width:100%">
+    <img src="images/ss2.png" style="width:100%">  
+  </div>
+</div>
+
+</body>
+</html>

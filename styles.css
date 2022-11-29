@@ -1,0 +1,115 @@
+:root {
+    --top: 100px;
+    --pistachio: #E2E7B8;
+  }
+
+
+html{
+    background-color:#E2E7B8;
+}
+/* portrait */
+.s0-image{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 50px;
+    top: 200px;
+}
+
+/* car */
+.s1-image{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 500px;
+    top: 200px;
+}
+
+/* car */
+.s2-image{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 950px;
+    top: 200px;
+}
+
+/* .row{
+    top: 200px;
+} */
+
+/* gallery */
+.gallery-button{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 900px;
+    top: var(--top, 0);
+
+    font-family: 'Atma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57px;
+
+    color: #7C8430;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+/* about */
+.about-button{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 1050px;
+    top: var(--top, 0);
+
+    font-family: 'Atma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57px;
+
+    color: #7C8430;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+/* contact */
+.contact-button{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 1200px;
+    top: var(--top, 0);
+
+    font-family: 'Atma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 57px;
+    color: #7C8430;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+
+
+/* lenas little things */
+.main-header{
+    position: absolute;
+    width: 824px;
+    height: 147px;
+    left: 40px;
+    top: 5px;
+
+    font-family: 'Cagliostro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 135px;
+
+    color: #7C8430;
+    
+}
